@@ -23,7 +23,7 @@ def main():
                     print("Too high! Try again.")
                     num_guesses += 1
             except ValueError:
-                print("Invalid input. Please enter a whole number.")
+                print("Invalid input. Please enter a integer.")
 
         play_again = input("\nPlay again? (y/n): ").strip().lower()
         if play_again != "y":
