@@ -1,7 +1,7 @@
 import random
 
 def main():
-    print("=" * 56 + "\n\tWELCOME TO NUMBER GUESSER BY JADON SAMUEL\n" + "=" * 56, end="\n\n")
+    print("=" * 45 + "\n\tNUMBER GUESSER BY JADON SAMUEL\n" + "=" * 45, end="\n\n")
     print("RULES: A random number between 1 and 100 will be generated. Your goal is to guess that number. You have infinite tries.\n")
 
     while True:
