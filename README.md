@@ -24,7 +24,7 @@ Each project targets a specific set of skills and concepts:
 |---|---------|--------------|
 | 1 | Number Guessing Game | loops, random, input validation |
 | 2 | Calculator | functions, edge cases |
-| 3 | Rock Paper Scissors | conditionals, game logic |
+| 3 | Rock Paper Scissors | match case, game logic |
 | 4 | Typing Speed Tester | string comparison, time module, WPM math |
 | 5 | Coin Flip Simulator | random, stats tracking |
 | 6 | Temperature Converter | functions, dictionaries |
