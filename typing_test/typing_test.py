@@ -8,7 +8,7 @@ def calculate_wpm(word_count, time):
 
 def calculate_accuracy(original, typed):
     match_summary = [1 if w1==w2 else 0 for w1, w2 in zip(original, typed)]
-    word_count = sum([1 if w1==w2 else 0 for w1, w2 in zip(original, typed)])
+    word_count = sum(match_summary)
     accuracy = word_count / len(original)
     
     return match_summary, word_count, accuracy
