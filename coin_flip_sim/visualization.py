@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
 def plot_results(results):
-    labels = results.keys()
     values = results.values()
+    labels = results.keys()
 
     plt.bar(labels, values)
     plt.title("Coin Flip Results")
